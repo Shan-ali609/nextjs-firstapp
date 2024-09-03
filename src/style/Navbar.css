@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 10px;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+}
+.Name{
+    font-size: 22px
+}
+
+
+.navbar-toggle{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.fields{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway',  sans-serif;
+    
+    font-weight: 400;
+}
+.fields li:hover{
+    color: skyblue;
+}
+.drop{
+  
+  height: 23px;
+  width: 23px;
+}
+
+.dropdown-toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-menu li{
+    color: black;
+    padding: 15px 0px;
+  }
+  .dropdown-menu li:hover{
+    color: skyblue;
+    background-color: #eae7e7;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+
+.srch{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    color: rgb(48, 44, 252);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .fields {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .fields.open {
+      display: flex;
+      position: absolute;
+      background-color: rgb(202, 204, 202);
+      top: 50px;
+      left: 0;
+      width: 100%;
+      padding: 20px 0px;
+      text-align: center;
+      z-index: 1;
+    }
+    .srch{
+        position: relative;
+        left: 50%;
+    }
+    .dropdown-menu{
+        position: relative;
+        background-color: rgb(202, 204, 202);
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+} 
+
