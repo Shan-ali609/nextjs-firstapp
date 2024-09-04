@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { IoSearch } from "react-icons/io5";
 import "../style/Navbar.css";
 
 export default function Navbar() {
@@ -84,7 +85,7 @@ export default function Navbar() {
             <a href="shop">SHOP</a>
           </li>
           <li>
-            <img className="srch" src="/images/search.png" />
+            <IoSearch className="conn" />
           </li>
         </ul>
       </div>

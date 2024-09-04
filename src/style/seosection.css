@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding-bottom: 138px;
+    margin-top: 120px;
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(250, 254, 255);
+}
+.img-size{
+    height: 23rem;
+    width: 42rem; 
+    margin-right: 70px; 
+    margin-top: -20px;
+}
+
+.txt-section{
+    max-width: 365px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.txt-section h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #0e1015;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+.txt-section p{
+    color: grey;
+    line-height: 24px;
+}
+.btn{
+    line-height: 22px;
+    width: 210px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    color: white;
+    background-color: rgb(116,92,249);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 30px;
+   
+}
+.btn:hover{
+    background-color: rgb(113, 87, 255);
+}
