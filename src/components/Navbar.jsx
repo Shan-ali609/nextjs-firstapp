@@ -11,8 +11,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav>
-      <div className="navbar">
+    <div className="fullscreen-background">
+      <nav className="navbar">
         <div>
           <a href="http://localhost:3000/">
             <span className="Name">Shapely Demo</span>
@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
 
         <button
-          class="navbar-toggle"
+          className="navbar-toggle"
           aria-label="Toggle navigation"
           onClick={toggleNav}
         >
@@ -42,16 +42,15 @@ export default function Navbar() {
               ABOUTTHETESTS{" "}
               <span>
                 {" "}
-                <img className="drop" src="/images/drop.png"></img>{" "}
+                <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
             </a>
-
             <ul className="dropdown-menu">
               <li>
                 <a href="#">Page Image Alignment</a>
               </li>
               <li>
-                <a href="#">Page Markup and formating</a>
+                <a href="#">Page Markup and Formatting</a>
               </li>
               <li>
                 <a href="#">Clear Floats</a>
@@ -66,7 +65,7 @@ export default function Navbar() {
               LEVEL1{" "}
               <span>
                 {" "}
-                <img className="drop" src="/images/drop.png"></img>{" "}
+                <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
             </a>
             <ul className="dropdown-menu">
@@ -88,7 +87,7 @@ export default function Navbar() {
             <IoSearch className="conn" />
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }

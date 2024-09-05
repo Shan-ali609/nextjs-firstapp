@@ -1,51 +1,106 @@
-.portfolio-main{
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.portfolio-main {
     width: 100%;
-    background-color:rgb(243, 243, 243) ;
-   
+    background-color: rgb(243, 243, 243);
     display: flex;
-    margin: 50px 0px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 70px;
     padding: 150px 0px;
+    box-sizing: border-box; 
 }
-.text-section{
+
+.text-section {
     max-width: 365px;
     display: flex;
     gap: 10px;
     margin-top: 40px;
     flex-direction: column;
 }
-.text-section h3{
+
+.text-section h3 {
     font-size: 30px;
     font-weight: 400;
     color: #0e1015;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
-.text-section p{
+
+.text-section p {
     color: grey;
     line-height: 24px;
 }
-.btt{
+
+.btt {
     line-height: 22px;
     width: 210px;
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding: 16px;
     color: white;
     background-color: rgb(116,92,249);
     font-size: 12px;
     font-weight: 600;
     margin-top: 30px;
-   
+    border: none;
+    cursor: pointer;
 }
-.btt:hover{
+
+.btt:hover {
     background-color: rgb(113, 87, 255);
 }
-.image-sec{
+
+.image-sec {
     height: 23rem;
-    width: 42rem; 
+    width: 42rem;
     padding-left: 40px;
     margin-top: -20px;
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 768px) {
+    .portfolio-main {
+        flex-direction: column;
+    }
+
+    .image-sec {
+        width: 100%;
+        height: auto; 
+        padding-left: 0; 
+       
+    }
+
+    .text-section {
+        max-width: 100%;
+        margin-left:20px ;
+    }
+
+    .text-section h3 {
+        font-size: 30px;
+    }
+
+    .text-section p {
+        font-size: 14px;
+    }
+
+    .btt {
+        width: 100%;
+        max-width: 210px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-section h3 {
+        font-size: 20px;
+    }
+
+    .text-section p {
+        font-size: 12px;
+    }
+
+    .btt {
+        padding: 12px;
+        font-size: 10px;
+    }
 }

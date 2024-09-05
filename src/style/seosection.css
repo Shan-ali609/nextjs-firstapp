@@ -1,41 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-.main{
+
+.main {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: center;
     gap: 50px;
     width: 100%;
-    padding-bottom: 138px;
-    margin-top: 120px;
+    padding: 138px 0px;
     border: 1px solid rgb(248, 248, 248);
     background-color: rgb(250, 254, 255);
+    box-sizing: border-box;
 }
-.img-size{
+
+.img-size {
     height: 23rem;
     width: 42rem; 
     margin-right: 70px; 
     margin-top: -20px;
 }
 
-.txt-section{
+.txt-section {
     max-width: 365px;
     display: flex;
     margin-top: 40px;
     flex-direction: column;
 }
-.txt-section h3{
+
+.txt-section h3 {
     font-size: 30px;
     font-weight: 400;
     color: #0e1015;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
-.txt-section p{
+
+.txt-section p {
     color: grey;
     line-height: 24px;
 }
-.btn{
+
+.btn {
     line-height: 22px;
     width: 210px;
     padding-bottom: 16px;
@@ -45,8 +48,45 @@
     font-size: 12px;
     font-weight: 600;
     margin-top: 30px;
-   
+    border: none;
+    cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(113, 87, 255);
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .img-size {
+        width: 100%;
+        height: auto; 
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .txt-section {
+        max-width: 100%;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+
+    .txt-section h3 {
+        font-size: 30px;
+    }
+
+    .txt-section p {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 210px;
+    }
 }

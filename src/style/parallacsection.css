@@ -1,44 +1,84 @@
-.immage{
+
+.immage {
     background-image: url('https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg');
     background-position: center;
     background-size: cover;
-    
+    background-attachment: fixed;
     width: 100%;
-    padding: 100px 0px;
+    padding: 100px 20px; 
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    box-sizing: border-box; 
 }
-.immage h1{
-    display: flex;
-    flex-wrap: wrap;
+
+.immage h1 {
+    font-size: 4rem; 
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: 300;
+    margin: 0;
 }
-.immage p{
-    
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* padding: 0px 230px; */
-    max-width: 63rem;
+
+.heading {
+    width: 100%; 
+    text-align: center;
+    font-size: 1.5rem; 
+}
+.paragraph{
+    width: 100%;
+    max-width: 50rem;
     text-align: center;
 }
-.info{
+.info {
     line-height: 22px;
     width: 210px;
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding: 16px;
     color: white;
     background-color: rgb(116,92,249);
     font-size: 12px;
     font-weight: 600;
     margin-top: 30px;
-   
+    border: none;
+    cursor: pointer;
 }
-.info:hover{
+
+.info:hover {
     background-color: rgb(113, 87, 255);
-    padding: 0px auto;
 }
+
+@media (max-width: 768px) {
+    .immage {
+        padding: 30px 15px;
+    }
+
+    .heading {
+        font-size: 1.25rem;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 180px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .immage {
+        padding: 20px 10px;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 150px;
+        font-size: 0.7rem;
+    }
+}
+
+ 
+ 

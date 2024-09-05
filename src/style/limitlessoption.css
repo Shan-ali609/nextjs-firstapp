@@ -1,0 +1,37 @@
+.limit-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    line-height: 33px;
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+
+.limit-option h1{
+    color: #0e1015;
+    font-size: 30px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.limit-option p{
+    color: #8c979e;
+    max-width: 58rem;
+    text-align: center;
+}
+.button{
+    line-height: 22px;
+    width: 200px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    color: white;
+    background-color: rgb(116,92,249);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.button:hover{
+    background-color: rgb(113, 87, 255);
+}
