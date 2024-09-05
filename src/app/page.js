@@ -8,6 +8,7 @@ import Forestimagesection from "@/components/Forestimagesection";
 import Carousalsection from "@/components/Carousalsection";
 import Mainclient from "@/components/Mainclient"
 import Themesdownload from "@/components/Themesdownload";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Carousalsection />
         <Mainclient />
         <Themesdownload />
+        
     </>
   );
 }

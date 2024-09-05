@@ -16,29 +16,7 @@ export default function Forestimagesection() {
         </div>
       </div>
 
-      {/* <div>
-        
-        <div className='gallery-images'>
-          <img src='/images/forest.jpg ' alt='gallery'/>
-          <img src='/images/forest.jpg ' alt='gallery'/>
-          <img src='/images/forest.jpg ' alt='gallery'/>
-          <img src='/images/forest.jpg ' alt='gallery'/>
-        </div>
-        
-        <div>
-        <img src='/images/forest.jpg ' alt='gallery'/>
-          <img src='/images/portfolio.png ' alt='gallery'/>
-          <img src='/images/search.png' alt='gallery'/>
-          <img src=' /images/SEOIMAGE.png  ' alt='gallery'/>
-        </div>
-
-        <div>
-        <img src='/images/forest.jpg ' alt='gallery'/>
-          <img src='/images/portfolio.png ' alt='gallery'/>
-          <img src='/images/search.png' alt='gallery'/>
-        </div>
-
-      </div> */}
+    
 
       <div class="gallery-grid">
         <img src="/images/2.jpg" alt="gallery" />

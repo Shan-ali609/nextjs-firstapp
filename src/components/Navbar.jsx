@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import "../style/Navbar.css";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -14,9 +15,9 @@ export default function Navbar() {
     <div className="fullscreen-background">
       <nav className="navbar">
         <div>
-          <a href="http://localhost:3000/">
+          <Link href="http://localhost:3000/">
             <span className="Name">Shapely Demo</span>
-          </a>
+          </Link>
         </div>
 
         <button
@@ -29,59 +30,59 @@ export default function Navbar() {
 
         <ul className={`fields ${isNavOpen ? "open" : ""}`}>
           <li>
-            <a href="home">HOME</a>
+            <Link href="/">HOME</Link>
           </li>
           <li>
-            <a href="blog">BLOG</a>
+            <Link href="/blog1">BLOG</Link>
           </li>
           <li>
-            <a href="portfolio">PORTFOLIO</a>
+            <Link href="/portfolio">PORTFOLIO</Link>
           </li>
           <li className="dropdown">
-            <a href="#" className="dropdown-toggle">
+            <Link href="#" className="dropdown-toggle">
               ABOUTTHETESTS{" "}
               <span>
                 {" "}
                 <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
-            </a>
+            </Link>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">Page Image Alignment</a>
+                <Link href="#">Page Image Alignment</Link>
               </li>
               <li>
-                <a href="#">Page Markup and Formatting</a>
+                <Link href="#">Page Markup and Formatting</Link>
               </li>
               <li>
-                <a href="#">Clear Floats</a>
+                <Link href="#">Clear Floats</Link>
               </li>
               <li>
-                <a href="#">Page with Comments</a>
+                <Link href="#">Page with Comments</Link>
               </li>
             </ul>
           </li>
           <li className="dropdown">
-            <a href="#" className="dropdown-toggle">
+            <Link href="#" className="dropdown-toggle">
               LEVEL1{" "}
               <span>
                 {" "}
                 <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
-            </a>
+            </Link>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">Level 1.1</a>
+                <Link href="#">Level 1.1</Link>
               </li>
               <li>
-                <a href="#">Level 1.2</a>
+                <Link href="#">Level 1.2</Link>
               </li>
               <li>
-                <a href="#">Level 1.3</a>
+                <Link href="#">Level 1.3</Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="shop">SHOP</a>
+            <Link href="">SHOP</Link>
           </li>
           <li>
             <IoSearch className="conn" />

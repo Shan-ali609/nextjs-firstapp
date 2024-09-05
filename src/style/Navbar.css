@@ -91,7 +91,9 @@ body, html {
 .dropdown-menu li {
     color: black;
     padding: 15px 10px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+    
+    
 }
 
 .dropdown-menu li:hover {
@@ -124,8 +126,8 @@ body, html {
         display: none;
         flex-direction: column;
         position: absolute;
-        background-color: rgb(202, 204, 202);
-        top: 60px;
+        background-color: white;
+        top: 50px;
         left: 0;
         width: 100%;
         padding: 20px 0;
@@ -146,7 +148,10 @@ body, html {
         position: static;
         width: 100%;
     }
-
+    .dropdown-menu li {
+        
+        padding: 10px 80px;
+    }
     .navbar-toggle {
         display: block;
     }
