@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link href="/portfolio">PORTFOLIO</Link>
           </li>
           <li className="dropdown">
-            <Link href="#" className="dropdown-toggle">
+            <Link href="/aboutthetest" className="dropdown-toggle">
               ABOUTTHETESTS{" "}
               <span>
                 {" "}

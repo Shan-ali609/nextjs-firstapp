@@ -1,0 +1,38 @@
+.aboutthe-tests{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 5rem 13rem;
+    gap: 20px; 
+}
+
+
+@media (max-width: 1200px) {
+    .aboutthe-tests{
+      padding: 9rem 85px;
+      grid-template-columns: 8fr 4fr; 
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    .aboutthe-tests {
+      padding: 7rem 70px;
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .aboutthe-tests {
+      padding: 5rem 54px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .aboutthe-tests {
+      padding: 3rem 44px;
+    }
+  }
+  

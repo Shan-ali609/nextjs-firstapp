@@ -6,7 +6,7 @@ export default function Gallery() {
       
 
 
-      <div class="gallery-grid">
+      <div className='gallery-grid'>
         <img src="/images/2.jpg" alt="gallery" />
         <img src="/images/1.jpg" alt="gallery" />
         <img src="/images/3.jpg" alt="gallery" />

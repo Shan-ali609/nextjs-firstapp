@@ -1,0 +1,89 @@
+.about-tests{
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.about-tests-B{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.wordpress-unit{
+    color: #8c979e;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.order-list{
+    margin-left: 3rem;
+    list-style-type: decimal;
+    color: #8c979e;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@media (max-width: 1200px) {
+    .about-tests{
+        font-size: 60px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .about-tests-B{
+        font-size: 40px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    .about-tests{
+        font-size: 52px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .about-tests-B{
+        font-size: 37px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-tests{
+        font-size: 44px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .about-tests-B{
+        font-size: 34px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .about-tests{
+        font-size: 36px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .about-tests-B{
+        font-size: 30px;
+        line-height: 64px;
+        font-weight: 400;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  }
+  
