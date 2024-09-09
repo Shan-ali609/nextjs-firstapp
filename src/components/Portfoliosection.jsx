@@ -4,6 +4,8 @@ function Portfoliosection() {
   return (
     <section>
       <div className="portfolio-main">
+
+
         <div className="text-section">
           <h3>Portfolio Section </h3>
           <p>
@@ -14,6 +16,8 @@ function Portfoliosection() {
           </p>
           <button type="button" className="btt">SEE IT IN ACTION</button>
         </div>
+
+
 
         <div className="image-sec">
             <img src="/images/portfolio.png" />

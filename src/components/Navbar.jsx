@@ -48,7 +48,7 @@ export default function Navbar() {
             </Link>
             <ul className="dropdown-menu">
               <li>
-                <Link href="#">Page Image Alignment</Link>
+                <Link href="pageimagealignment">Page Image Alignment</Link>
               </li>
               <li>
                 <Link href="#">Page Markup and Formatting</Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
             </ul>
           </li>
           <li>
-            <Link href="">SHOP</Link>
+            <Link href="/shop">SHOP</Link>
           </li>
           <li>
             <IoSearch className="conn" />

@@ -1,13 +1,16 @@
 
-
+.main-clients{
+    background-color: white;
+    
+}
 
 .main-clients-heading {
     color: black;
     font-size: 2rem; 
     font-weight: 400;
     padding-top: 70px;
-    text-align: center; 
-    
+    text-align: center;
+     cursor: pointer;
 }
 
 .flex-box {
@@ -29,6 +32,7 @@
     object-fit: contain; 
     filter: brightness(0.9) blur(1px);
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .flex-box img:hover {

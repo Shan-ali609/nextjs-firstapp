@@ -1,0 +1,40 @@
+
+
+.blog-sectionfull {
+    background: white;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 30px 13rem;
+    gap: 20px; 
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .blog-sectionfull {
+      padding: 30px 8rem;
+      grid-template-columns: 8fr 4fr; 
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    .blog-sectionfull {
+      padding: 30px 5rem;
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .blog-sectionfull {
+      padding: 20px 2rem;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .blog-sectionfull {
+      padding: 15px 1rem;
+    }
+  }
+  
