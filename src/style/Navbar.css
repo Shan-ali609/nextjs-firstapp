@@ -86,13 +86,13 @@ body, html {
     padding: 12px 0;
     list-style: none;
     z-index: 10;
+    
 }
 
 .dropdown-menu li {
     color: black;
     padding: 15px 10px;
     letter-spacing: 0px;
-    
     
 }
 
