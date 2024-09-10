@@ -62,7 +62,7 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="dropdown">
-            <Link href="#" className="dropdown-toggle">
+            <Link href="/level1" className="dropdown-toggle">
               LEVEL1{" "}
               <span>
                 {" "}
@@ -71,6 +71,9 @@ export default function Navbar() {
             </Link>
             <ul className="dropdown-menu">
               <li>
+                <Link href="/level2">Level2</Link>
+                <ul className="dropdown-menu2">
+              <li>
                 <Link href="#">Level 1.1</Link>
               </li>
               <li>
@@ -78,6 +81,16 @@ export default function Navbar() {
               </li>
               <li>
                 <Link href="#">Level 1.3</Link>
+              </li>
+            </ul>
+
+
+              </li>
+              <li>
+                <Link href="/level2a">Level2a</Link>
+              </li>
+              <li>
+                <Link href="/level2b">Level2b</Link>
               </li>
             </ul>
           </li>

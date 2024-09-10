@@ -4,7 +4,7 @@
     background: white;
     display: grid;
     grid-template-columns: 8fr 4fr;
-    padding: 30px 13rem;
+    padding: 90px 12.5rem;
     gap: 20px; 
   }
   

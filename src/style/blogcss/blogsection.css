@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .blog-section{
     width: 100%;
     height: 224px;
@@ -9,7 +10,8 @@
     color: #0e1015;
     position: relative;
     padding: 93px 12rem;
-  
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
 }
 @media screen and (max-width:767px) {
       .blog-sec{
