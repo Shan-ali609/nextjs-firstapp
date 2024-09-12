@@ -1,23 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import "@/components/pageimagealignment/alignment1.css";
-export default function Section2({ leftimgurl, showcaption }) {
+export default function Section2({ leftimgurl }) {
   return (
     <div>
-      <div className="left-right-img">
-        <div className="img-left-right">
+      
+      <div className="main-box">
+       
+        <div className="image-box">
           <Image
-            className="image-left"
+          className="img-flt"
             src={leftimgurl}
             height={150}
             width={150}
           />
-          {showcaption && <>
-          
-         <p className="paragraph1">Itty-bitty caption</p> </>}
+         
         </div>
   
-  <div>
+        
+       <div className="para-content">
 
         <p className="paragraph1">
           The rest of this paragraph is filler for the sake of seeing the text
@@ -34,15 +35,17 @@ export default function Section2({ leftimgurl, showcaption }) {
           letting the do it’s thang. Mission accomplished!
         </p>
         </div>   
+
+
       </div>
 
-      <div>
+       <div>
         <p className="paragraph12">
           And now for a{" "}
           <span className="span-text">massively large image. </span> It also has
           <span className="span-text"> no alignment </span>
         </p>
-      </div>
+      </div> 
     </div>
   );
 }

@@ -51,7 +51,7 @@ export default function Navbar() {
                 <Link href="pageimagealignment">Page Image Alignment</Link>
               </li>
               <li>
-                <Link href="#">Page Markup and Formatting</Link>
+                <Link href="/pagemarkupandformating">Page Markup and Formatting</Link>
               </li>
               <li>
                 <Link href="#">Clear Floats</Link>

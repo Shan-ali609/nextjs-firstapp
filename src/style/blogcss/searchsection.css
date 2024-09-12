@@ -21,7 +21,7 @@
     transition: color 0.3s; /* Smooth transition for icon color */
 }
 
-input[type="text"] {
+input {
     border: none;
     outline: none;
     padding: 8px;
@@ -33,24 +33,24 @@ input[type="text"] {
     transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and box-shadow */
 }
 
-input[type="text"]::placeholder {
+input::placeholder {
     color: #888;
 }
 
-/* Hover effect for the search-here container */
+
 .search-here:hover {
-    background-color: #e0e0e0; /* Slightly darker background on hover */
+    background-color: #e0e0e0; 
 }
 
-/* Hover effect for the search-bttn */
+
 .search-here:hover .search-bttn {
-    color: rgb(113, 87, 255); /* Change icon color on hover */
+    color: rgb(113, 87, 255); 
 }
 
-/* Focus effect for the input field */
-input[type="text"]:focus {
-    border: 1px solid rgb(113, 87, 255); /* Add border color on focus */
-    box-shadow: 0 0 5px rgba(113, 87, 255, 0.3); /* Add subtle shadow on focus */
+
+input:focus {
+    border: 1px solid rgb(113, 87, 255); 
+    box-shadow: 0 0 5px rgba(113, 87, 255, 0.3); 
 }
 
 /* Responsive adjustments */
@@ -64,7 +64,7 @@ input[type="text"]:focus {
         right: 8px; /* Adjust position for smaller screens */
     }
 
-    input[type="text"] {
+    input {
         font-size: 14px;
         padding-right: 36px; /* Adjust padding for smaller screens */
     }
@@ -80,7 +80,7 @@ input[type="text"]:focus {
         right: 5px; /* Adjust position for smaller screens */
     }
 
-    input[type="text"] {
+    input{
         font-size: 16px;
         padding-right: 32px; /* Adjust padding for smaller screens */
     }
@@ -96,7 +96,7 @@ input[type="text"]:focus {
         right: 5px; /* Maintain position for very small screens */
     }
 
-    input[type="text"] {
+    input{
         font-size: 14px;
         padding-right: 30px; /* Adjust padding for very small screens */
     }

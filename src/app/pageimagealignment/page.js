@@ -30,22 +30,16 @@ export default function page() {
       />
    <Imagealignment1 />
    <Section2 leftimgurl = 'https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-150x150.jpg'
-    showcaption={false}
-   />
+    
+   /> 
 
-   <Fullimagesectoin  />
-   <Rightalign  bigimgurl = 'https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-580x300.jpg' 
+   <Fullimagesectoin  /> 
+    <Rightalign  bigimgurl = 'https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-300x200.jpg' 
     showcontent={true}
-   />
-   <Section2 leftimgurl = 'https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-150x150.jpg' 
-     showcaption={true}
-   />
-     <Fullimagesectoin  />
-
-     <Rightalign  bigimgurl = 'https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-580x300.jpg' 
-      showcontent={false}
-     />
-     <Leavereply />
+   /> 
+   
+      
+     <Leavereply /> 
    </div>
 
        <div>
