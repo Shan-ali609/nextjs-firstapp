@@ -8,7 +8,7 @@ import Rightalign from '@/components/pageimagealignment/Rightalign'
 import Section2 from "@/components/pageimagealignment/Section2";
 import '@/app/blog1/page.css'
 import React from "react";
-import Fullimagesectoin from "@/components/pageimagealignment/fullimagesectoin";
+import Fullimagesectoin from "@/components/pageimagealignment/Fullimagesectoin";
 import Leavereply from "@/components/pageimagealignment/Leavereply";
 
 export default function page() {
