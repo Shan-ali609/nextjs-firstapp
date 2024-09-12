@@ -12,11 +12,11 @@ export default function Headings() {
         },
         {
             title:'Abbreviation Tag',
-            paragraph: 'The abbreviation srsly stands for “seriously”.'
+            paragraph: 'The abbreviation srsly stands for seriously.'
         },
         {
             title:'Acronym Tag',
-            paragraph: 'The acronym ftw stands for “for the win”.'
+            paragraph: 'The acronym ftw stands for for the win.'
         },
         {
             title:'Big Tag',
@@ -24,7 +24,7 @@ export default function Headings() {
         },
         {
             title:'Cite Tag',
-            paragraph: '“Code is poetry.” —Automattic'
+            paragraph: 'Code is poetry. Automattic'
         },
         {
             title:'Emphasize Tag',
@@ -37,15 +37,15 @@ export default function Headings() {
         },
         {
             title:'Cite Tag',
-            paragraph: '“Code is poetry.” —Automattic'
+            paragraph: 'Code is poetry. Automattic'
         },
         {
             title:'Cite Tag',
-            paragraph: '“Code is poetry.” —Automattic'
+            paragraph: 'Code is poetry.Automattic'
         },
         {
             title:'Cite Tag',
-            paragraph: '“Code is poetry.” —Automattic'
+            paragraph: 'Code is poetry.Automattic'
         },
 
     ]
@@ -70,10 +70,10 @@ export default function Headings() {
 
     <h2 className='quotes'>Blockquotes</h2>
     <p className='single-line'>Single line blockquote:</p>
-    <p className='folish'>"Stay hungry. Stay foolish."</p>
+    <p className='folish'>`&quoStay hungry. Stay foolish.`&quo</p>
     <p className='single-line'>Multi line blockquote with a cite reference:</p>
-    <p className='folish'>"People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things 
-        I have done. Innovation is saying no to 1,000 things. Steve Jobs – Apple Worldwide Developers’ Conference, 1997"</p>
+    <p className='folish'>`&quoPeople think focus means saying yes to the thing you&quot;ve got to focus on. But that&quot;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I&quot;m actually as proud of the things we haven&quot;t done as the things 
+        I have done. Innovation is saying no to 1,000 things. Steve Jobs Apple Worldwide Developers Conference, 1997`&quo</p>
   </div>
 
 
@@ -89,7 +89,7 @@ export default function Headings() {
       <div className='table-hero'>
         <p className='name-color'> jane	</p>
         <p className='salary'> $1	</p>
-        <p className='name-head1'>	Because that’s all Steve Job’ needed for a salary.</p>
+        <p className='name-head1'>	Because that&ldquo;s all Steve Job&ldquo; needed for a salary.</p>
       </div>
       <div className='table-hero'>
         <p className='name-color'> jhon	</p>
@@ -135,7 +135,7 @@ export default function Headings() {
    
    <div>
    <h6 className='main-todo1'>Do It Live</h6>
-    <p className='name-head2'>I’ll let Bill O’Reilly will explain this one.</p>
+    <p className='name-head2'>I&quot;ll let Bill O&quot;Reilly will explain this one.</p>
    </div>
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "../style/seosection.css";
 function Seosection() {
   return (
@@ -7,7 +8,11 @@ function Seosection() {
        
        
         <div className="img-size">
-          <img src="/images/SEOIMAGE.png" />
+          <Image src="/images/SEOIMAGE.png"
+            width={672}
+            height={368}
+            alt="good"
+          />
         </div>
       
       

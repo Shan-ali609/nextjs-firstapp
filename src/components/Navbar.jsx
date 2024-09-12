@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { IoSearch } from "react-icons/io5";
+import Image from "next/image";
 import "../style/Navbar.css";
 import Link from "next/link";
 
@@ -43,7 +44,7 @@ export default function Navbar() {
               ABOUTTHETESTS{" "}
               <span>
                 {" "}
-                <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
+                <Image className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
             </Link>
             <ul className="dropdown-menu">
@@ -66,7 +67,7 @@ export default function Navbar() {
               LEVEL1{" "}
               <span>
                 {" "}
-                <img className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
+                <Image className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
               </span>
             </Link>
             <ul className="dropdown-menu">

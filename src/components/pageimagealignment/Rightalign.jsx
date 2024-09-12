@@ -12,6 +12,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
            src={ bigimgurl}
            height={150}
            width={150}
+           alt="good"
          />
          {showcaption && <>
          
@@ -23,7 +24,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
 
        <p className="paragraph1">
          The rest of this paragraph is filler for the sake of seeing the text
-         wrap around the 150×150 image, which is left aligned.{" "}
+         wrap around the 150 150 image, which is left aligned.{" "}
          <span className="span-text">left aligned.</span>{" "}
        </p>
        <p className="paragraph1">
@@ -31,9 +32,9 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
          of the image. The text should not be creeping on the image. Creeping
          is just not right. Images need breathing room too. Let them speak like
          you words. Let them do their jobs without any hassle from the text. In
-         about one more sentence here, we’ll see that the text moves from the
+         about one more sentence here, we ll see that the text moves from the
          right of the image down below the image in seamless transition. Again,
-         letting the do it’s thang. Mission accomplished!
+         letting the do it s thang. Mission accomplished!
        </p>
        </div>   
 
@@ -52,7 +53,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
   <div className="Caption-love" >
 
    <Image src={bigimgurl }
-    
+    alt="good"
      width={580}
      height={300}
    /> 
@@ -73,6 +74,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
            src='https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-150x150.jpg'
            height={150}
            width={150}
+           alt="good"
          />
         <label htmlFor="" className="caption-style" >Itty-bitty caption.</label>
        </div>
@@ -82,7 +84,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
 
        <p className="paragraph1">
          The rest of this paragraph is filler for the sake of seeing the text
-         wrap around the 150×150 image, which is left aligned.{" "}
+         wrap around the 150 150 image, which is left aligned.{" "}
          <span className="span-text">left aligned.</span>{" "}
        </p>
        <p className="paragraph1">
@@ -90,9 +92,9 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
          of the image. The text should not be creeping on the image. Creeping
          is just not right. Images need breathing room too. Let them speak like
          you words. Let them do their jobs without any hassle from the text. In
-         about one more sentence here, we’ll see that the text moves from the
+         about one more sentence here, well see that the text moves from the
          right of the image down below the image in seamless transition. Again,
-         letting the do it’s thang. Mission accomplished!
+         letting the do its thang. Mission accomplished!
        </p>
        </div>   
 
@@ -108,6 +110,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
        <Image src='https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-1200x4002.jpg'
        height={400}
        width={1200}
+       alt="good"
         />
     <label htmlFor="" className="caption-style" >Massive image comment for your eyeballs.</label>
       </div> 
@@ -132,6 +135,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
            src={ bigimgurl}
            height={150}
            width={150}
+           alt="good"
          />
          
          
@@ -143,7 +147,7 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
 
        <p className="paragraph1">
          The rest of this paragraph is filler for the sake of seeing the text
-         wrap around the 150×150 image, which is left aligned.{" "}
+         wrap around the 150 150 image, which is left aligned.{" "}
          <span className="span-text">left aligned.</span>{" "}
        </p>
        <p className="paragraph1">
@@ -151,9 +155,9 @@ export default function Section2({bigimgurl,showcontent ,showcaption}) {
          of the image. The text should not be creeping on the image. Creeping
          is just not right. Images need breathing room too. Let them speak like
          you words. Let them do their jobs without any hassle from the text. In
-         about one more sentence here, we’ll see that the text moves from the
+         about one more sentence here, well see that the text moves from the
          right of the image down below the image in seamless transition. Again,
-         letting the do it’s thang. Mission accomplished!
+         letting the do its thang. Mission accomplished!
        </p>
        </div>   
 

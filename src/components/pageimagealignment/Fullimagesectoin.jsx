@@ -10,6 +10,7 @@ export default function Fullimagesectoin({showcaptoins}) {
      <Image src='https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-1200x4002.jpg'
      height={400}
      width={1200}
+     alt='good'
       />
 
     </div> 

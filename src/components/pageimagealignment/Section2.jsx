@@ -10,6 +10,7 @@ export default function Section2({ leftimgurl }) {
         <div className="image-box">
           <Image
           className="img-flt"
+          alt="good"
             src={leftimgurl}
             height={150}
             width={150}
@@ -22,7 +23,7 @@ export default function Section2({ leftimgurl }) {
 
         <p className="paragraph1">
           The rest of this paragraph is filler for the sake of seeing the text
-          wrap around the 150×150 image, which is left aligned.{" "}
+          wrap around the 150 150 image, which is left aligned.{" "}
           <span className="span-text">left aligned.</span>{" "}
         </p>
         <p className="paragraph1">
@@ -30,9 +31,9 @@ export default function Section2({ leftimgurl }) {
           of the image. The text should not be creeping on the image. Creeping
           is just not right. Images need breathing room too. Let them speak like
           you words. Let them do their jobs without any hassle from the text. In
-          about one more sentence here, we’ll see that the text moves from the
+          about one more sentence here, well see that the text moves from the
           right of the image down below the image in seamless transition. Again,
-          letting the do it’s thang. Mission accomplished!
+          letting the do its thang. Mission accomplished!
         </p>
         </div>   
 

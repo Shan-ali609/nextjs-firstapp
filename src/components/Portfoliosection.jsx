@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 import "../style/portfoliodection.css";
+
 function Portfoliosection() {
   return (
     <section>
@@ -20,7 +22,11 @@ function Portfoliosection() {
 
 
         <div className="image-sec">
-            <img src="/images/portfolio.png" />
+            <Image src="/images/portfolio.png"
+             height={368}
+             width={672}
+             alt="goood"
+            />
         </div>
 
 

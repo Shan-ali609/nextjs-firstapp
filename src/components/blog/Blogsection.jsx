@@ -1,7 +1,6 @@
 import React from "react";
+import  Image  from "next/image";
 import "@/style/blogcss/blogsection.css";
-
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Blogsection() {
@@ -19,6 +18,7 @@ export default function Blogsection() {
             <Image
               className="blogimg"
               src="/images/blog1.jpg"
+              alt="good"
               width={592}
               height={350}
             />
@@ -77,6 +77,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog2.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -124,6 +125,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog3.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -157,6 +159,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog4.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -196,6 +199,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog5.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -236,6 +240,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog6.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -283,6 +288,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog7.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -323,6 +329,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog8.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -361,6 +368,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog9.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -400,6 +408,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog10.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -442,6 +451,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog11.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />
@@ -483,6 +493,7 @@ export default function Blogsection() {
               <Image
                 className="blogimg"
                 src="/images/blog12.jpg"
+                alt="good"
                 width={592}
                 height={350}
               />

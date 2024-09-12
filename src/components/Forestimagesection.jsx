@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "next/image";
 import "../style/forestimagesection.css";
 export default function Forestimagesection() {
   return (
     <>
       <div>
         <div className="forest">
-          <img src="/images/forest.jpg" alt="forest-image" />
+          <Image src="/images/forest.jpg" alt="forest-image" />
         </div>
       </div>
 
