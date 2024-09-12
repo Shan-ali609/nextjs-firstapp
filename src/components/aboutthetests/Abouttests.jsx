@@ -1,17 +1,25 @@
 import React from "react";
+
 import "@/style/abouttests/abouttests.css";
 
-export default function Abouttests({ testtitle,abouttitle,aboutPara,showContent,tast,shoptitle,level2, level2para,level2a}) {
+export default function Abouttests({ testtitle,abouttitle,aboutPara,showContent,tast,shoptitle,level2,
+   level2para,level2a, level2btitle,lvl2bpara, alignmenttitle,alignmentpara1,alignmentpara2,ullimgpara}) {
      
   return (
    <>
 
 
     <div>
-      <h1 className="about-tests">{ testtitle} {abouttitle} {shoptitle}  {level2} {level2a}</h1>
+      <h1 className="about-tests">{ testtitle} {abouttitle} {shoptitle}  {level2} {level2a} { level2btitle} { alignmenttitle}</h1>
       <p className="wordpress-unit">
-      {tast}  {aboutPara} {level2para}
+      {tast}  {aboutPara} {level2para} {lvl2bpara} {alignmentpara1} {ullimgpara}
       </p >
+     
+      <p className="wordpress-unit">
+      {alignmentpara2}
+      </p >
+
+     
       {showContent && (
         <>
         <h1  className="about-tests-B">WordPress Theme Development Resources</h1>

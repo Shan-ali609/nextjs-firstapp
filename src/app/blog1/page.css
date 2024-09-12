@@ -1,11 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .blog-sectionfull {
-    background: white;
+    background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 8fr 4fr;
     padding: 90px 12.5rem;
     gap: 20px; 
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   

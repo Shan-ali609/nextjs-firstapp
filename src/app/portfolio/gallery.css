@@ -1,4 +1,25 @@
-.gallery-section{
+
+.gallery-section {
     padding: 60px 10rem;
     background-color: white;
+
+}
+
+
+@media (max-width: 1024px) {
+    .gallery-section {
+        padding: 60px 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .gallery-section {
+        padding: 40px 1.5rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery-section {
+        padding: 30px 1rem; 
+    }
 }
