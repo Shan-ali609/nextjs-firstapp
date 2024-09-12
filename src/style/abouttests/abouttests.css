@@ -1,4 +1,4 @@
-.about-tests{
+/* .about-tests{
     font-size: 60px;
     line-height: 64px;
     font-weight: 400;
@@ -88,4 +88,151 @@
         font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
   }
-  
+   */
+
+   .about-tests {
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.about-tests-B {
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 400;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.wordpress-unit {
+    padding: 20px 0;
+    color: #8c979e;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.order-list {
+    margin-left: 3rem;
+    list-style-type: decimal;
+    color: #8c979e;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .about-tests {
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .about-tests-B {
+        font-size: 40px;
+        line-height: 64px;
+    }
+    .wordpress-unit {
+        font-size: 15px;
+        padding: 15px 0;
+    }
+    .order-list {
+        margin-left: 2.5rem;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-tests {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .about-tests-B {
+        font-size: 37px;
+        line-height: 64px;
+    }
+    .wordpress-unit {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    .order-list {
+        margin-left: 2rem;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-tests {
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .about-tests-B {
+        font-size: 34px;
+        line-height: 64px;
+    }
+    .wordpress-unit {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+    .order-list {
+        margin-left: 1.5rem;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-tests {
+        font-size: 36px;
+        line-height: 64px;
+    }
+    .about-tests-B {
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .wordpress-unit {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .order-list {
+        margin-left: 1rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 390px) {
+    .about-tests {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .about-tests-B {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .wordpress-unit {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    .order-list {
+        margin-left: 0.5rem;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .about-tests {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about-tests-B {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .wordpress-unit {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+    .order-list {
+        margin-left: 0.25rem;
+        font-size: 14px;
+    }
+}

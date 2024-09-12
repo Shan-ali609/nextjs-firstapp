@@ -1,38 +1,108 @@
+
 .search-here {
     display: flex;
-    flex-direction: row;
-
-    position: relative;
-    /* padding-left: 10px; */
-}
-
-.search-here input {
-    border: 1px solid #ebebeb;
-    padding: 10px;
-    padding-right: 150px; 
-    box-sizing: border-box; 
-    outline: none;
-    
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative; /* Added to position the icon correctly */
+    transition: background-color 0.3s; /* Smooth transition for background color */
 }
 
 .search-bttn {
-    position: absolute;
-     margin-left: 21rem;
-     border-left: 1px solid #ebebeb;
-    top: 50%; 
-    padding-left: 10px;
-    transform: translateY(-50%); 
-    color:#ebebeb ;
+    font-size: 24px;
+    color: #333;
     cursor: pointer;
-    font-size: 2rem;
-} 
+    position: absolute; /* Position icon absolutely within the container */
+    right: 10px; /* Align icon to the right */
+    transition: color 0.3s; /* Smooth transition for icon color */
+}
 
-.search-here input:hover {
-    border: 1px solid rgb(113, 87, 255);
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%; /* Ensure input takes up remaining space */
+    background-color: transparent; /* Remove default background */
+    border-radius: 4px;
+    padding-right: 40px; /* Add padding to avoid text overlapping the icon */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and box-shadow */
 }
-.search-bttn:hover{
-    color: rgb(113, 87, 255);
+
+input[type="text"]::placeholder {
+    color: #888;
 }
+
+/* Hover effect for the search-here container */
+.search-here:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+/* Hover effect for the search-bttn */
+.search-here:hover .search-bttn {
+    color: rgb(113, 87, 255); /* Change icon color on hover */
+}
+
+/* Focus effect for the input field */
+input[type="text"]:focus {
+    border: 1px solid rgb(113, 87, 255); /* Add border color on focus */
+    box-shadow: 0 0 5px rgba(113, 87, 255, 0.3); /* Add subtle shadow on focus */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .search-here {
+        padding: 6px;
+    }
+
+    .search-bttn {
+        font-size: 20px;
+        right: 8px; /* Adjust position for smaller screens */
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+        padding-right: 36px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-here {
+        padding: 10px;
+    }
+
+    .search-bttn {
+        font-size: 18px;
+        right: 5px; /* Adjust position for smaller screens */
+    }
+
+    input[type="text"] {
+        font-size: 16px;
+        padding-right: 32px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 300px) {
+    .search-here {
+        padding: 8px;
+    }
+
+    .search-bttn {
+        font-size: 16px;
+        right: 5px; /* Maintain position for very small screens */
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+        padding-right: 30px; /* Adjust padding for very small screens */
+    }
+}
+
+
 
 .post-imgs{
     height: 40px;
