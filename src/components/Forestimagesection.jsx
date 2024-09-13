@@ -6,9 +6,9 @@ export default function Forestimagesection() {
     <>
       <div>
         <div className="forest">
-          <Image src="/images/forest.jpg"
-           width={100}
-           height={100}
+          <Image className="forest-size" src="/images/forest.jpg"
+           width={500}
+           height={400}
           alt="forest-image" />
         </div>
       </div>

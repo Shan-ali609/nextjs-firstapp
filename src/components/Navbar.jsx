@@ -58,10 +58,10 @@ export default function Navbar() {
                 <Link href="/pagemarkupandformating">Page Markup and Formatting</Link>
               </li>
               <li>
-                <Link href="#">Clear Floats</Link>
+                <Link href="clearingfloats">Clear Floats</Link>
               </li>
               <li>
-                <Link href="#">Page with Comments</Link>
+                <Link href="pagecomment">Page with Comments</Link>
               </li>
             </ul>
           </li>

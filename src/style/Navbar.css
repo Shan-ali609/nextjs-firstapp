@@ -133,6 +133,7 @@ body, html {
     color: rgb(58, 82, 191);
     font-weight: 400;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .srch {
