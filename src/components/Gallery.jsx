@@ -8,16 +8,46 @@ export default function Gallery() {
 
 
       <div className='gallery-grid'>
-        <Image  src="/images/2.jpg" alt="gallery" />
-        <Image  src="/images/1.jpg" alt="gallery" />
-        <Image src="/images/3.jpg" alt="gallery" />
-        <Image  src="/images/4.jpg" alt="gallery" />
-        <Image  src="/images/5.jpg" alt="gallery" />
-        <Image  src="/images/6.jpg" alt="gallery" />
-        <Image  src="/images/7.jpg" alt="gallery" />
-        <Image src="/images/8.jpg" alt="gallery" />
-        <Image src="/images/9.jpg" alt="gallery" />
-        <Image src="/images/10.jpg" alt="gallery" />
+        <Image  src="/images/2.jpg" 
+         height={300}
+         width={300}
+        alt="gallery" />
+        <Image  src="/images/1.jpg" 
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image src="/images/3.jpg"
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image  src="/images/4.jpg"
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image  src="/images/5.jpg"
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image  src="/images/6.jpg" 
+          height={300}
+          width={300}
+        alt="gallery" />
+        <Image  src="/images/7.jpg"
+          height={300}
+          width={300}
+        alt="gallery" />
+        <Image src="/images/8.jpg"
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image src="/images/9.jpg"
+           height={300}
+           width={300}
+        alt="gallery" />
+        <Image src="/images/10.jpg"
+          height={300}
+          width={300}
+        alt="gallery" />
       </div>
     </div>
   )

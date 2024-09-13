@@ -44,7 +44,10 @@ export default function Navbar() {
               ABOUTTHETESTS{" "}
               <span>
                 {" "}
-                <Image className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
+                <Image className="drop" src="/images/drop.png" 
+                 width={20}
+                 height={2}
+                alt="Dropdown" />{" "}
               </span>
             </Link>
             <ul className="dropdown-menu">
@@ -67,7 +70,10 @@ export default function Navbar() {
               LEVEL1{" "}
               <span>
                 {" "}
-                <Image className="drop" src="/images/drop.png" alt="Dropdown" />{" "}
+                <Image className="drop" src="/images/drop.png" 
+                 height={7}
+                 width={14}
+                alt="Dropdown" />{" "}
               </span>
             </Link>
             <ul className="dropdown-menu">
