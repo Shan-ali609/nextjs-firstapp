@@ -172,9 +172,14 @@ body, html {
         width: 100%;
     }
          .dropdown-menu2 {
-      display: none;
-      position: static;
+      
+      position: absolute;
+      height: 190px;
       width: 100%;
+      margin-left: 120px;
+    }
+    .dropdown-menu2 li{
+        padding: 0px;
     }
     .dropdown-menu li {
         

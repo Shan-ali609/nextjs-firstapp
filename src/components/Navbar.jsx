@@ -79,7 +79,7 @@ export default function Navbar() {
             <ul className="dropdown-menu">
               <li>
                 <Link href="/level2">Level2</Link>
-                <ul className="dropdown-menu2">
+             <ul className="dropdown-menu2">
               <li>
                 <Link href="#">Level 1.1</Link>
               </li>
