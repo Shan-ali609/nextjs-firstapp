@@ -94,6 +94,8 @@ body, html {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      /* margin-left: 151px;   */
+      left: 100%;
     top: 0;
     list-style: none;
     z-index: 10;
@@ -142,7 +144,6 @@ body, html {
     color: rgb(48, 44, 252);
 }
 
-
 @media screen and (max-width: 768px) {
     .fields {
         display: none;
@@ -171,14 +172,14 @@ body, html {
         width: 100%;
     }
          .dropdown-menu2 {
-      left: 0;
+     
       position: relative;
-      height: 120px;
-    
+       left: 0;
+        width: 100%;
       
     }
     .dropdown-menu2 li{
-        
+         padding: 2px 0px;
     }
     .dropdown-menu li {
         
@@ -187,7 +188,8 @@ body, html {
     .navbar-toggle {
         display: block;
     }
-}   
+}    
+
 
 
   
