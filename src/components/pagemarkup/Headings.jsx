@@ -58,7 +58,7 @@ export default function Headings() {
           <div className='pop-ups'>
             <h1 >Header One</h1>
             <h2>Header Two</h2> 
-            <h3>Header Three</h3>
+            <h3 style={{color:'black'}}>Header Three</h3>
             <h4>Header Four</h4>
             <h5>Header Five</h5>
             <h6>Header Six</h6>
