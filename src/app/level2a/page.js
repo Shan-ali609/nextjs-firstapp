@@ -5,6 +5,7 @@ import Recentposts from '@/components/blog/Recentposts'
 import Searchsection from '@/components/blog/Searchsection'
 import Categories from '@/components/blog/Categories'
 import '@/app/blog1/page.css'
+import Leavereply from '@/components/pageimagealignment/Leavereply'
 
 export default function page() {
   return (
@@ -22,6 +23,7 @@ export default function page() {
           <Abouttests level2a = 'Level 2a' 
           level2para = '(lorem ipsum)'
           /> 
+          <Leavereply />
         </div>
         <div>
         
