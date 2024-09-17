@@ -1,4 +1,4 @@
-
+/* 
 .main-clients{
     background-color: white;
     
@@ -24,21 +24,15 @@
     padding: 0 20px; 
     padding-top: 100px;
     padding-bottom: 60px;
+    border: 2px solid yellow;
 }
 
 .flex-box img {
     height: 60px;
     width: 60px;
-    object-fit: contain; 
-    filter: brightness(0.9) blur(1px);
-    transition: transform 0.3s ease;
+    object-fit: contain;     
     cursor: pointer;
 }
-
-.flex-box img:hover {
-    filter: brightness(1) blur(0);
-}
-
 
 @media (max-width: 768px) {
     .main-clients-heading {
@@ -69,4 +63,94 @@
         height: 40px; 
         width: 40px; 
     }
-}
+}   */
+
+
+.main-clients {
+    background-color: white;
+  }
+  
+  .main-clients-heading {
+    color: black;
+    font-size: 2rem; 
+    font-weight: 400;
+    padding-top: 70px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .flex-box {
+    display: flex;
+    overflow: hidden; /* Hide overflow to create a sliding effect */
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 120px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+    
+  }
+  
+  .flex-box-inner {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure no wrapping */
+    width: calc(100% * 2); /* Twice the container width */
+    animation: scroll 12s linear infinite;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 30px;
+  }
+  
+  .flex-box img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent images from shrinking */
+    margin-right: 80px; /* Gap between images */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move by one container width */
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .main-clients-heading {
+      font-size: 1.5rem;
+    }
+  
+    .flex-box img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .flex-box {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-clients-heading {
+      font-size: 1.2rem;
+    }
+  
+    .flex-box img {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .flex-box {
+      gap: 10px;
+    }
+  }
+  
+
+  
