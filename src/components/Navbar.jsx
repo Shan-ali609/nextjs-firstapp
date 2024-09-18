@@ -18,6 +18,7 @@ const toggleSearch = () => {
    return (
      <div className="fullscreen-background">
        <nav className="navbar">
+         
          <div>
            <Link href="http://localhost:3000/">
              <span className="Name">Shapely Demo</span>
@@ -105,10 +106,10 @@ const toggleSearch = () => {
            <li>
              <Link href="/shop">SHOP</Link>
            </li>
-           <li className="search-container" onMouseEnter={toggleSearch} onMouseLeave={toggleSearch}>
+           <li className="search-container" onMouseEnter={toggleSearch} >
              <IoSearch className="conn"  />
             {isSearchOpen && (
-             <div className="search-section" >
+             <div className="search-section" onMouseLeave={toggleSearch}>
             <input type="text" placeholder="Search..." />
             <button type="button">Search</button>
              </div>
