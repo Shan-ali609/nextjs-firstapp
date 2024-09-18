@@ -122,3 +122,26 @@
     margin-bottom: 24px;
     margin-top: 24px;
 }
+
+.post-title{
+    width: 100%;
+    height: 200px;
+    background-color: #ebebeb;
+    
+}
+.nd-para{
+   color: darkorange;
+   background-color: #ebebeb;
+}
+.sd-para{
+  color: coral;
+  background-color: aliceblue;
+}
+.post-pose{
+    padding-left: 30px;
+    padding-top:18px ;
+    color: black;
+}
+.todo{
+    margin-left: 60px;
+}

@@ -62,7 +62,11 @@ const toggleSearch = () => {
                  <Link href="clearingfloats">Clear Floats</Link>
                </li>
                <li>
-                 <Link href="pagecomment">Page with Comments</Link>
+                 <Link href="pagewithcomment">Page with Comments</Link>
+               </li>
+              
+               <li>
+                 <Link href="pagecomment">Page with Comments disabled</Link>
                </li>
              </ul>
            </li>

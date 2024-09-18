@@ -201,7 +201,7 @@ body, html {
     top: 100%;
     right: 0;
     margin-left: 100px;
-   
+    cursor: pointer;
     background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 10px;
@@ -213,7 +213,7 @@ body, html {
   .search-section input {
     padding: 5px;
     border: 1px solid #ddd;
-    
+    color: black;
     font-size: 14px;
     width: 210px;
   }
@@ -223,7 +223,6 @@ body, html {
     border: none;
     background-color: rgb(93 ,71 ,215);
     color: #fff;
-    
     font-size: 14px;
     cursor: pointer;
   }

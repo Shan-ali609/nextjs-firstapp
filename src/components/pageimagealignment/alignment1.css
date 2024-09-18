@@ -298,6 +298,9 @@
     border: none;
 }
 
+.form-data input:hover{
+    border: 1px solid rgb(113, 87, 255); 
+}
 .comment-set:hover {
     border: 1px solid rgb(113, 87, 255);
 }

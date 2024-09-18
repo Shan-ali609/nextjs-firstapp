@@ -4,7 +4,7 @@ import "@/style/abouttests/abouttests.css";
 
 export default function Abouttests({ testtitle,abouttitle,aboutPara,showContent,tast,shoptitle,level2,
    level2para,level2a, level2btitle,lvl2bpara, alignmenttitle,alignmentpara1,alignmentpara2,ullimgpara, pagemarkupheading,clearingheading,clearpara
-   ,pagecommenthead,  pagecomment1,pagecoment2,level3,level3a, level3para
+   ,pagecommenthead,  pagecomment1,pagecoment2,level3,level3a, level3para,pagewithcommenthead, pagewithcomment1,pagecomment2
   }) {
      
   return (
@@ -13,14 +13,14 @@ export default function Abouttests({ testtitle,abouttitle,aboutPara,showContent,
 
     <div className="main-abouttests">
       <h1 className="about-tests">{ testtitle} {abouttitle} {shoptitle}  {level2} {level2a} { level2btitle} { alignmenttitle} { pagemarkupheading}
-        {clearingheading} {pagecommenthead} {level3} {level3a}
+        {clearingheading} {pagecommenthead} {level3} {level3a} {pagewithcommenthead}
       </h1>
       <p className="wordpress-unit">
-      {tast}  {aboutPara} {level2para} {lvl2bpara} {alignmentpara1} {ullimgpara} {clearpara } {  pagecomment1} { level3para}
+      {tast}  {aboutPara} {level2para} {lvl2bpara} {alignmentpara1} {ullimgpara} {clearpara } {  pagecomment1} { level3para} {pagewithcomment1}
       </p >
      
       <p className="wordpress-unit">
-      {alignmentpara2} {pagecoment2}
+      {alignmentpara2} {pagecoment2} {pagecomment2}
       </p >
 
      
